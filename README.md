@@ -32,3 +32,7 @@ Also create two extra varieties of Hamburgers (subclasses) to cater for:
 All 3 classes should have a method that can be called any time to show the base price of the hamburger plus all additional additions, each showing the addition name, and addition price, and a grand/final total for the burger (base price + all additions)
 
 For the two additional classes this may require you to be looking at the base class for pricing and then adding totals to final price.
+
+## Note
+
+Yes, for the additions I could've used another class and a Set - but we're not at that part yet in the course...
