@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d87ef267-6995-4ed9-887a-728137663309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ideaman924/DeluxeBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ideaman924/DeluxeBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ideaman924/DeluxeBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ideaman924/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ideaman924/Hamburger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ideaman924/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ideaman924/HealthyBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ideaman924/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ideaman924/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -65,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583172506719</updated>
-      <workItem from="1583172510976" duration="2804000" />
+      <workItem from="1583172510976" duration="3873000" />
     </task>
     <servers />
   </component>
@@ -73,13 +82,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="655" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1583175385998">
+    <state x="655" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1583176321098">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state x="655" y="292" key="#com.intellij.ide.util.MemberChooser/0.23.1680.969@0.23.1680.969" timestamp="1583175385998" />
+    <state x="655" y="292" key="#com.intellij.ide.util.MemberChooser/0.23.1680.969@0.23.1680.969" timestamp="1583176321098" />
     <state x="405" y="307" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1583174351512">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
     <state x="405" y="307" key="#com.intellij.unscramble.UnscrambleDialog/0.23.1680.969@0.23.1680.969" timestamp="1583174351512" />
+    <state width="1358" height="247" key="GridCell.Tab.0.bottom" timestamp="1583176502171">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1583176502171" />
+    <state width="1358" height="247" key="GridCell.Tab.0.center" timestamp="1583176502170">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1583176502170" />
+    <state width="1358" height="247" key="GridCell.Tab.0.left" timestamp="1583176502169">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1583176502169" />
+    <state width="1358" height="247" key="GridCell.Tab.0.right" timestamp="1583176502171">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1583176502171" />
   </component>
 </project>

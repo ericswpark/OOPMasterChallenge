@@ -10,10 +10,31 @@ public class Hamburger {
     private int cheese = 0;
     private String name;
 
+    private final int PRICE_LETTUCE = 200; // in cents
+    private final int PRICE_TOMATO = 300; // in cents
+    private final int PRICE_CARROT = 175; // in cents
+    private final int PRICE_CHEESE = 275; // in cents
+
     public Hamburger(String breadRollType, int meat, int price) {
         this.breadRollType = breadRollType;
         this.meat = meat;
         this.price = price;
+    }
+
+    public void getHamburgerInformation() {
+        System.out.println("Base price of hamburger: $" + (double) price / 100);
+        System.out.println("---------");
+        System.out.println("Additions");
+        System.out.println("---------");
+        getAdditionInformation();
+        System.out.println("Total price: $" + (double) getPrice() / 100);
+    }
+
+    public void getAdditionInformation() {
+        System.out.println("Lettuce: " + lettuce + " * $" + (double) PRICE_LETTUCE / 100 + " = $" + (double) lettuce * PRICE_LETTUCE / 100);
+        System.out.println("Tomato: " + tomato + " * $" + (double) PRICE_TOMATO / 100 + " = $" + (double) tomato * PRICE_TOMATO / 100);
+        System.out.println("Carrot: " + carrot + " * $" + (double) PRICE_CARROT / 100 + " = $" + (double) carrot * PRICE_CARROT / 100);
+        System.out.println("Cheese: " + cheese + " * $" + (double) PRICE_CHEESE / 100 + " = $" + (double) cheese * PRICE_CHEESE / 100);
     }
 
     public String getBreadRollType() {
@@ -33,7 +54,7 @@ public class Hamburger {
     }
 
     public int getPrice() {
-        return price;
+        return price + lettuce * PRICE_LETTUCE + tomato * PRICE_TOMATO + carrot * PRICE_CARROT + cheese * PRICE_CHEESE;
     }
 
     public void setPrice(int price) {
